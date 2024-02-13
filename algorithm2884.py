@@ -27,6 +27,7 @@ if m < 45 :
 elif m > 45 :
     m = m - 45
 
+
 print(h, m)
 
 
