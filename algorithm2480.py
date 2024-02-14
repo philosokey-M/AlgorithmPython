@@ -23,7 +23,7 @@ elif a==c and a!=b:
 elif b==c and b!=a:
   money = 1000+b*100
 elif a!=b and b!=c and c !=a :
-  max= 0;
+  max= 0
   if a>b and a>c :
     max= a
   elif b>a and b>c :
