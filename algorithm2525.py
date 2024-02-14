@@ -33,3 +33,19 @@ else :
     h=ph+rh-24
 
 print(h, m)
+
+# <chatGPT가 알려주는 정답>
+# ph, pm = map(int, input().split())
+# c = int(input())
+
+# ph += c // 60
+# pm += c % 60
+
+# if pm >= 60:
+#     ph += 1
+#     pm -= 60
+
+# if ph >= 24:
+#     ph -= 24
+
+# print(ph, pm)
