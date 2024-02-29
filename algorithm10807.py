@@ -8,7 +8,7 @@
 # 첫째 줄에 입력으로 주어진 N개의 정수 중에 v가 몇 개인지 출력한다.
 
 n= int(input())
-num = list(map(int,input().split()))
+num = list(map(int,input().split()))  # map 함수는 list에 넣을 수 없어서 형변환을 해줘야함!!!
 v = int(input())
 
 cnt = 0;
